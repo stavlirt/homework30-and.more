@@ -1,0 +1,17 @@
+@import 'components/logo';
+@import 'components/header';
+@import 'components/sectione';
+@import 'components/site-nav';
+@import 'utils/colors';
+@import 'utils/mixins';
+.containerhw27-1-foto {
+    width: 370px;
+    height: 404px;
+    top: 262px;
+    left: 215px;
+    border: 1px;
+    box-shadow: 1px 4px 6px 0px #00000029;
+    box-shadow: 0px 4px 4px 0px #0000000F;
+    box-shadow: 0px 1px 1px 0px #0000001F;
+    margin-top: 50px;
+}

@@ -1,0 +1,222 @@
+.portfolio-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba (33, 150, 243, 0.90);
+    transform: translateY(100%);
+    transition: transform 800ms ease-in-out;
+}
+
+.portfolio-logo:hover .portfolio-overlay {
+    transform: translateY(0);
+}
+
+.fordisplayflex {
+    display: flex;
+    margin-left: 430px;
+}
+
+.box1-sectiondownheader {
+    width: 73px;
+    height: 38px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.box2-sectiondownheader {
+    width: 125px;
+    height: 38px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.box3-sectiondownheader {
+    width: 112px;
+    height: 38px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.box4-sectiondownheader {
+    width: 103px;
+    height: 38px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.box5-sectiondownheader {
+    width: 130px;
+    height: 38px;
+    border-radius: 4px;
+}
+
+.box1-text-sectiondownheader {
+    margin-left: 25px;
+    padding-top: 8px;
+}
+
+.overlay2ff {
+    width: 370px;
+    height: 294px;
+    position: absolute;
+    margin-top: 300px;
+}
+
+.overlay2ffgy {
+    z-index: 1;
+    width: 370px;
+    height: 294px;
+    overflow: hidden;
+    margin-bottom: 70px;
+    position: absolute;
+    top: -0px;
+}
+
+.overlay2ffgy:hover .overlay2ff {
+    transform: translateY(-300px);
+    transition: 0.6s;
+}
+.classfortext1-hw27 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+.classfortext2-hw27 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.allcontainer-hw27-sectione1 {
+    display: flex;
+
+}
+
+.containerhw27-12-foto {
+    margin-left: 110px;
+}
+
+.containerhw27-13-foto {
+    margin-left: 50px;
+}
+
+.containerhw27-14-foto {
+    margin-left: 50px;
+}
+
+.foto-hoverhw27:hover {
+    z-index: 1;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #686666;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    position: fixed;
+    height: 1200px;
+    width: 20px;
+    left: 0px;
+    top: 0px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    text-align: center;
+}
+
+.openbtn:hover {
+    background-color: #2c2a2a;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+
+.textopenmodalbar {
+    rotate: 90deg;
+    position: relative;
+    right: 0%;
+    top: -260px;
+    display: flex;
+}
+
+.textheremodalbar {
+    margin-left: 5px;
+}
+.text {
+    color: transparent;
+    width: 370px;
+    height: 294px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+
+.pskcmsxmaao {
+    position: relative;
+}
